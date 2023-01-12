@@ -9,6 +9,10 @@ epstab = { epsconst( 1 ), epstable( 'gold.dat' ) }
 
 %INSERT INITIALIZATION FOR SYSTEM HERE
 
+
+
+
+
 %  width of electron beam and electron velocity
 [ width, vel ] = deal( 2, eelsbase.ene2vel( 80e3 ) );
 
